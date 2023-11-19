@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUSIC PLAYER</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+
+ <div class="main">
+  <h2>Music Player</h2>
+  <img src="" alt="" id="track_image">
+  <p id="title">title.mp3</p>
+  <marquee behavior="" direction=""><p id="artist">Artist Name</p></marquee>
+  <input type="range" id="duration" min="0" max="100" value="0" onclick="change_duration()">
+  <div class="btn1">
+  <button onclick="previous_play()" id="pre"class="backward"><i class="fa fa-backward" aria-hidden="true"></i></button>
+  <button  onclick="play()" id="play" class="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+  <button onclick="next_play()"  id="next" class="forward"><i class="fa fa-forward" aria-hidden="true"></i></button>
+</div>
+
+ </div>
+
+<script src="script.js"></script>
+</body>
+</html>

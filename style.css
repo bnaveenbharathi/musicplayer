@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    width: 100%;
+   min-height: 100vh;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(213, 213, 213) !important;
+}
+.main{
+    width: 25%;
+    height: 80%;
+    background: rgb(224, 150, 12);
+    border-radius: 30px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 425px) {
+    .main{
+        width: 80%;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5),
+        inset 0px -2px 10px rgba(0, 0, 0, 0.5);                                  ;
+    }
+}
+h2{
+    text-align: center;
+    font-weight: bolder !important;
+}
+/* song image */
+img{
+    width: 300px;
+    height: 280px;
+    display:flex ;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4);
+}
+p{
+    margin: 20px;
+    text-align: center;
+}
+/* song duration */
+#duration{
+    width: 85%;
+    display: block;
+    display:flex ;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* total button */
+.btn1{
+   
+   margin-top: 20px;
+   font-size: xx-large;
+   display:flex ;
+   margin-left: auto;
+   margin-right: auto;
+   justify-content: center;
+   align-items: center;
+   
+}
+button{
+    background: none;
+    outline: none !important; 
+    border-radius: 5px;  
+    border: none;
+  
+}
+/* button animation */
+marquee{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+/* each button select */
+.backward,.play{
+    margin-right: 40px;
+   
+}
+.forward{
+   
+    margin-left: 9px;
+}
+.play{
+    width: 20px;
+}
+/* ----------------------*/
